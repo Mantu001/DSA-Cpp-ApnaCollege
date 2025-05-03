@@ -1,0 +1,1 @@
+// this is the basic lecture which tells us about how to setup vs code in MAC system
