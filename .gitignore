@@ -1,0 +1,41 @@
+# Ignore executable files
+*.exe
+*.out
+*.app
+*.dll
+
+# Ignore object files and static/shared libs
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+
+# Ignore compiled resources
+*.res
+*.idb
+*.pdb
+
+# Ignore build/ and bin/ folders
+build/
+bin/
+dist/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore MacOS files
+.DS_Store
+
+# Ignore Windows thumbnail files
+Thumbs.db
+
+# Ignore debug/release folders
+Debug/
+Release/
