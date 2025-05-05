@@ -166,39 +166,39 @@
 // }
 
 
-// // Map
-// #include <iostream>
-// #include <map> // by default it can sort our data
-// using namespace std;
-// int main() {
-//     map<string,int> m;
-//     m["TV"] = 100;
-//     m["Laptop"] = 10;
-//     m["Mobile"] = 500;
-//     for (auto p : m){
-//         cout << p.first << " " <<  p.second << endl;
-//     }
-//     return 0;
-// }
-
-
-// set
+// Map
 #include <iostream>
-#include <set>  // it remove duplicacy of element (store unique element )
+#include <map> // by default it can sort our data
 using namespace std;
 int main() {
-    set<int> s;
-    s.insert(1);
-    s.insert(2);
-    s.insert(3);
-    s.insert(4);
-    s.insert(5);
-    s.insert(3);
-    s.insert(4);
-    s.insert(5);
-    for (auto val : s){
-        cout << val << " ";
+    map<string,int> m;
+    m["TV"] = 100;
+    m["Laptop"] = 10;
+    m["Mobile"] = 500;
+    for (auto p : m){
+        cout << p.first << " " <<  p.second << endl;
     }
-    cout << endl;
     return 0;
 }
+
+
+// // set
+// #include <iostream>
+// #include <set>  // it remove duplicacy of element (store unique element )
+// using namespace std;
+// int main() {
+//     set<int> s;
+//     s.insert(1);
+//     s.insert(2);
+//     s.insert(3);
+//     s.insert(4);
+//     s.insert(5);
+//     s.insert(3);
+//     s.insert(4);
+//     s.insert(5);
+//     for (auto val : s){
+//         cout << val << " ";
+//     }
+//     cout << endl;
+//     return 0;
+// }
